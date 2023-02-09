@@ -36,7 +36,7 @@ a {
 
 .btn {
     margin-right: 10px;
-    padding: .6rem;
+    padding: .2rem;
     border-radius: 3px;
     background-color: gray;
     color: white;
@@ -44,7 +44,7 @@ a {
 
 .top {
     position: absolute;
-    top: 10px;
+    top: 8px;
     right: 0;
 }
 
@@ -57,16 +57,26 @@ a {
 }
 
 .col {
+    
     /* justify-content: center; */
 
 }
 
 .user {
-    
-    width:calc((100% - 60px) / 7)
-     /* debug */
-    
-   
+    position: relative;
+    width:calc((100% - 60px) / 7);
+}
+
+.name {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    font-size: .8rem;
+    padding: .3rem;
+    z-index: 1;
+    color: white;
+    background-color: rgba(119, 136, 153,0.5);
+
 }
 
 
@@ -75,6 +85,18 @@ a {
     justify-content: space-between;
     /* debug */
     background-color: lightblue;
+}
+
+.bar ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+
+.bar .left-side li {
+    padding: 1rem;
+    margin-right: 10px;
+    align-items: center;
 }
 
 .left-side {
