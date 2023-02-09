@@ -75,16 +75,16 @@ a {
     padding: .3rem;
     z-index: 1;
     color: white;
-    background-color: rgba(119, 136, 153,0.5);
+    background-color: rgba(254, 254, 255, 0.5);
 
 }
 
 
 .bar {
     height: 80px;
-    justify-content: space-between;
-    /* debug */
-    background-color: lightblue;
+    position: relative;
+    background-color: #222222;
+    padding-top:2rem ;
 }
 
 .bar ul {
@@ -93,20 +93,33 @@ a {
     color: white;
 }
 
-.bar .left-side li {
-    padding: 1rem;
-    margin-right: 10px;
-    align-items: center;
+.bar li {
+    margin-right: .5rem;
 }
 
 .left-side {
-
+    width:40%;
+    margin-left: 10px;
 }
 
 .center-side {
+    width: 50%;
     
 }
 .right-side {
+    width: 10%;
+    color: red;
+    text-align: right;
+}
+
+.end {
+    font-size: .8rem;
+    background-color: rgba(255, 255, 255,0.5);
+    margin-right: 10px;
+    text-align: center;
+    width: 90px;
+    padding: .5rem;
+    
     
 }
 
