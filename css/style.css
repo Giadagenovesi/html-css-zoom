@@ -8,3 +8,84 @@
 img {
     max-width: 100%;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* COMMON */
+/* layout */
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* debug */
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+
+}
+.wrap {
+    flex-wrap:wrap;
+    gap: 10px; 
+}
+
+.btn {
+    margin-right: 10px;
+    padding: .6rem;
+    border-radius: 3px;
+    background-color: gray;
+    color: white;
+}
+
+.top {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+/* MAIN */
+.meeting {
+    width: 90%;
+    height: calc(100% - 80px);
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.col {
+    /* justify-content: center; */
+
+}
+
+.user {
+    
+    width:calc((100% - 60px) / 7)
+     /* debug */
+    
+   
+}
+
+
+.bar {
+    height: 80px;
+    justify-content: space-between;
+    /* debug */
+    background-color: lightblue;
+}
+
+.left-side {
+
+}
+
+.center-side {
+    
+}
+.right-side {
+    
+}
+
+
